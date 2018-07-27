@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+
+body{background-color: 0px;
+/*    background: url(../images/tic-tac-toe.png);*/
+    background-color: #000;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+	color: #ffd700;
+
+   }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+
+
+header{background-color: #000;
+    height: 150px;
+   
+    
+    border-bottom:50px solid  #cc0000;;
+    width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 49px;
+    padding-top: 0px 
+}
+
+.navbar{padding: 0px;
+        width: 1200px;
+        margin: 0px auto;
+}
+
+.textlogo{
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    padding-top: 25px;
+    text-align: center;
+	color: #fff;
+   
+}
+
+.logo{background-color: #000;
+    height: 220px;
+    width: 240px;
+  
+   float: left;
+    font-size: 48px;
+    
+    
+}
+
+
+
+
+
+ 
+
+a:link {color: #666666;
+    text-decoration: none;
+
+}
+
+/* visited link */
+a:visited {
+    color:#4d4b4b;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #4aaaa4;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #4d4b4b;
+    text-decoration: none;
+}
+
+.menutext{font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 550%;
+
+}
+.box {
+   
+    margin: 0 auto;
+    background-color: #000;
+/*    border:3px; border-style:solid; border-color:rgb(167, 167, 167); */
+    overflow: auto;
+
+    
+  }
+ul{float: right}
+li{ display:inline-block;} 
+
+img {
+  float: left;
+}
+h1{
+    font-family: 'Russo One', sans-serif;
+	
+    color: #cc0000;
+    margin: 0px;
+    padding-right: 20px;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-bottom: 35px;
+    text-align: right; 
+font-size: 36px;
+}
+
+h2{
+    font-family: 'Russo One', sans-serif;
+	
+    color: #ffd700;
+    margin: 0px;
+    padding-right: 20px;
+    padding-top: 35px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    text-align: left; 
+font-size: 30px;
+}
+h3{
+    text-align: center;
+    color: #beb05b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 250%;
+
+}
+
+.p{  
+    font-family:   Arial, Helvetica, sans-serif;
+	font-color: #ffd700;
+    font-size: 30px;
+    line-height: 200%;
+}
+
+.pspacing{
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+/*	font-size: 22px;*/
+	font-weight: 200;
+	color: #ffd700;
+}
+
+.formtext{
+    font-family: 'Russo One', sans-serif;
+	
+    color: #cc0000;
+    margin: 0px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    text-align: left; 
+font-size: 24px;
+}
+
+hr { 
+    display: block;
+
+    margin-left: 20px;;
+    margin-right: 20px;;
+    border-width: 1px;
+    color: #666;
+} 
+
+footer{background-color: #000000;
+    height: 600px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 50px; 
+    border-bottom:100px solid #cc0000;
+    text-align: center;
+
+
+
+}
+
+.len{
+	float: right;
+	height: 600px;
+}
+/*
+.portfolio{margin: 0px;
+    display: inline-block;
+    vertical-align: middle; 
+}
+.picbox{margin: 0px;
+    padding: 10px;
+    width: 33%;
+
+}*/
+
+#match-img{
+    width:400px;
+}
+  
+.row {
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding: 0 10px;
+    padding-bottom: 25px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+
+  .img-class {
+        width:100%
+  }
+
+
+  .clearfix{overflow: auto;}
+
+  .box-set {
+  position: relative;
+  height: 322px;  
+  width: 270px;
+  margin: 15px 5px 20px 15px;
+  float: left;  
+  border: 0px solid black;
+  overflow: auto;
+}
+
+
+
+.box22 {
+  /* Absolute Position */
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background: #4aaaa5;
+  text-align: center;
+  bottom: 20px;
+  
+}
+
+
+.box2 {
+  /* Absolute Position */
+  position: absolute;
+  width: 280px;
+  height: 60px;
+  background: #4aaaa5;
+  text-align: center;
+  margin-top: 250px;
+  
+}
+
+.box3 {
+    /* Absolute Position */
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    background: #4aaaa5;
+    text-align: center;
+    margin-top: 603px;
+    z-index: 3;
+  }
+.box4 {
+    /* Absolute Position */
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    background: #4aaaa5;
+    text-align: center;
+    margin-top: 958px;
+    z-index: 2;
+  }
+
+
+ @import url(https://fonts.googleapis.com/css?family=Cabin:700);
+
+/* HTML5 Boilerplate accessible hidden styles */
+[type="radio"] {
+  border: 0; 
+  clip: rect(0 0 0 0); 
+  height: 1px; margin: -1px; 
+  overflow: hidden; 
+  padding: 0; 
+  position: absolute; 
+  width: 1px;
+}
+
+/* One radio button per line */
+label {
+  display: block;
+  cursor: pointer;
+  line-height: 2.5;
+  font-size: 1.5em;
+}
+
+[type="radio"] + span {
+  display: block;
+}
+
+/* the basic, unchecked style */
+[type="radio"] + span:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.25em;
+  border-radius: 1em;
+  border: 0.125em solid #cc0000;
+  box-shadow: 0 0 0 0.15em #000;
+  margin-right: 0.75em;
+  transition: 0.5s ease all;
+}
+
+/* the checked style using the :checked pseudo class */
+[type="radio"]:checked + span:before {
+  background: #ffd700;
+  box-shadow: 0 0 0 0.25em #000;
+}
+
+/* never forget focus styling */
+[type="radio"]:focus + span:after {
+  content: '\0020\2190';
+  font-size: 1.5em;
+  line-height: 1;
+  vertical-align: -0.125em;
+}
+.formbox{
+    width: 80%;
+    margin: 20px;
+}
+
+.form1 {
+    border-radius: 1px;
+    background-color: f#fff;
+    padding: 20px;
+}
+
+.btn-primary {
+    color: #cc0000;
+    background-color: #ffd700;
+    border-color: #ffd700;
+  }
+  
+  .btn-primary:hover {
+    color: #ffd700;
+    background-color: #cc0000;
+    border-color: #cc0000;
+  }
+
+  .btn-primary:active {
+   color: #cc0000;
+    background-color: #ffd700;
+    border-color: #ffd700;
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .header {
+        position: static;
+        margin: 0 auto;
+    }
+    .container {
+        max-width: 100%;
+      }
+
+    
+
+  
+}
+
+     
+
+  
+
+
+
+
+
+   
+    
+
+
+    
+
